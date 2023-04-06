@@ -1,4 +1,5 @@
-Useful info for github pages:
+---
+Useful info for github pages + CSE 15L:
 * cs15lsp23gh (Username for remote server. Must enter ssh cs15lsp23gh@ieng6.ucsd.edu)
 * https://commonmark.org/help/ (.md cheat sheet)
 * https://www.markdownguide.org/getting-started/ (What is markdown article)
