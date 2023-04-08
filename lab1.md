@@ -14,7 +14,8 @@ Credit to Professor Politz for link above.
 To download VScode, visit: https://code.visualstudio.com/
 
 To download git, visit: https://gitforwindows.org/
-Follow steps here to set default terminal to **git bash** in VScode: https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994
+Follow steps here to set default terminal to **git bash** in VScode: <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994"> Something </a>
+
 Credit to Professor Politz for link above.
 
 **Now that we have finished the steps above, we will dive into remotely connecting.**
