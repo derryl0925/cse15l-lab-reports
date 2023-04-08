@@ -9,12 +9,20 @@ https://sdacs.ucsd.edu/~icc/index.php
 user: **username**@ucsd.edu
 pass: PID
 To change password: follow instructions <a href="https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view"> here </a> 
+
 Credit to Professor Politz for link above.
 
 To download VScode, visit: https://code.visualstudio.com/
 
 To download git, visit: https://gitforwindows.org/
 Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994"> here </a> to set default terminal to **git bash** in VScode.
+
 Credit to Professor Politz for link above.
 
 **Now that we have finished the steps above, we will dive into remotely connecting.**
+In order to start remote access, we will need to open up either our **Terminal** or **VScode**
+Once you get either application open, enter **ssh cs15lsp23zz@ieng6.ucsd.edu**, with the **zz** being your specific number.
+
+You will be asked to enter a password, that password will be whatever you set it to in the earlier steps.
+
+It should look like this:
