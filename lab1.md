@@ -6,10 +6,13 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **remote access*
 
 # **Step 1**
 In order to lookup your course-specific account, you will have to go to this <a href="https://sdacs.ucsd.edu/~icc/index.php "> page </a> and enter the following:
+
 *username: **xxx**@ucsd.edu* (only enter the bolded part of your email)
+
 *Student ID: **your PID** *
 
 Once you login, you will see:
+
 ![Image](courseSpecificAccounts.png)
 
 Now that you see this, click on the account for the corresponding course (in this case, it would be the one starting in **cs15l...**. You should see this:
@@ -17,10 +20,8 @@ Now that you see this, click on the account for the corresponding course (in thi
 
 Click on **Global Password Change Tool** and click **Proceed to the Password Change Tool** under the **Student, AX, or Course-Specific Student Accounts** section. Once you are there, follow the instructions and change your password.
 
-Now that we have completed Step 1, we can move onto Step 2.
-
 # **Step 2**
-VScode is an IDE(integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
+**VScode** is an IDE (integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
 
 To install VScode, visit: https://code.visualstudio.com/
 
@@ -29,7 +30,7 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 
 *Credit to Professor Politz for link above.*
 
-**Now that we have finished steps 1 and 2, we will dive into remotely connecting.**
+**Now it's time to dive into remotely connecting.**
 
 # **Step 3**
 In order to start remote access, we will need to open up either our **Terminal** or **VScode**
@@ -39,3 +40,5 @@ You will be asked to enter a password, that password will be whatever you set it
 
 It should look like this:
 ![Image](remoteLoginScreen.png)
+
+Once you are in you can run a few commands to test it out:
