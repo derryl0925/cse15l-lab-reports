@@ -41,6 +41,7 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 > *Credit to Professor Politz for link above.*
 
 **Now it's time to dive into remotely connecting.**
+
 ---
 # **Remote Access and Filesystem**
 In order to start remote access, we will need to open up either our **Command Prompt/Terminal** or **VScode**
