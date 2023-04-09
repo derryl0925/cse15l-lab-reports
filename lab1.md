@@ -26,4 +26,4 @@ Once you get either application open, enter **ssh cs15lsp23zz@ieng6.ucsd.edu**, 
 You will be asked to enter a password, that password will be whatever you set it to in the earlier steps.
 
 It should look like this:
-![Image](remoteLoginScreen.pgn)
+![Image](remoteLoginScreen.png)
