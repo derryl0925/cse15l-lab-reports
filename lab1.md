@@ -6,7 +6,7 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **remote access*
 
 # **Step 1**
 In order to lookup your course-specific account, you will have to go to this <a href="https://sdacs.ucsd.edu/~icc/index.php "> page </a> and enter the following:
-*username: **___**@ucsd.edu* (only enter the bolded part of your email)
+*username: **xxx**@ucsd.edu* (only enter the bolded part of your email)
 *Student ID: **your PID** *
 
 Once you login, you will see:
