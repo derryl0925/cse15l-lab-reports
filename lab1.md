@@ -39,12 +39,26 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 **Now it's time to dive into remotely connecting.**
 
 # **Remote Access and Filesystem**
-In order to start remote access, we will need to open up either our **Terminal** or **VScode**
-Once you get either application open, enter **ssh cs15lsp23zz@ieng6.ucsd.edu**, with the **zz** being your specific number.
+In order to start remote access, we will need to open up either our **Command Prompt/Terminal** or **VScode**
 
-You will be asked to enter a password, that password will be whatever you set it to in the earlier steps.
+Command Prompt (Windows) looks like:
+![Image](openingCommandPrompt.png)
 
-It should look like this:
+Terminal looks like:
+![Image](openingTerminal.png)
+
+VScode looks like:
+![Image](openingVScode.png)
+
+Once you get either application open, enter:
+**ssh cs15lsp23zz@ieng6.ucsd.edu**, with the **zz** being your specific number.
+
+You will be asked to enter a password, that password will be whatever you set it to in the earlier steps. **Note that when you type in your password it will appear as if you haven't typed in anything, but the terminal hides your password on purpose**.
+
+It should look like this (on Command Prompt because I have logged in previously on Terminal (Mac), *Terminal for Windows*:
+![Image](firstTimeLoginToRemoteServer.png)
+
+This is what it looks like if you have logged in (Terminal on mac):
 ![Image](remoteLoginScreen.png)
 
 Once you are in you can run a few commands to test it out:
