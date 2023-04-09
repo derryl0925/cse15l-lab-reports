@@ -80,3 +80,5 @@ Here is a screenshot of those commands and their respective outputs:
 ![Image](testingCommands.png)
 
 If you want to log out of the remote server in your terminal, you can use either **Ctrl-D** or **Exit** in the terminal to leave.
+
+That will be the end of my tutorial! Thank you all for taking the time to read this! If you have any corrections or issues with the article, please contact me at **del021@ucsd.edu**
