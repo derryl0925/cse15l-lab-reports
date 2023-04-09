@@ -1,5 +1,5 @@
-## **Lab Report 1 - Remote Access and FileSystem**
-Hey everyone! I'm Derrick and today I'll be guiding you through **remote access** in CSE 15L. To start, you will have to:
+## **Lab Report 1
+Hey everyone! I'm Derrick and today I'll be guiding you through **remote access and filesystem** in CSE 15L. To start, you will have to:
 1. Lookup your course-specific account, log into your CSE 15L account, and change the password
 2. Install VScode(Visual Studio Code) and git(if on Windows, allows you to use Mac/Linux commands on Windows*) *Windows commmands are different*
 3. Remotely Connecting
