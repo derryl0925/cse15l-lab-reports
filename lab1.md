@@ -33,11 +33,11 @@ You will be taken to a screen that looks like:
 
 Once you are there, select the proper installation for your device (Windows, Mac, Linux)
 
-Commands are different between Windows and Mac/Linux, **git** allows us to use Mac/Linux commands on Windows
-
 To download git, visit: https://gitforwindows.org/
 You will be taken to a screen that looks like:
 ![image](installingGit.png)
+
+We want to install git if on Windows because commands are different between Windows and Mac/Linux. Installing **git** allows us to use Mac/Linux commands on Windows.
 
 Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994"> here </a> to set default terminal to **git bash** in VScode.
 
@@ -49,14 +49,14 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 # **Remote Access and Filesystem**
 In order to start remote access, we will need to open up either our **Command Prompt/Terminal** or **VScode**
 
-Command Prompt (Windows) looks like:
+**Command Prompt (Windows) looks like:**
 
 ![Image](openingCommandPrompt.png)
 
-Terminal looks like:
+**Terminal looks like:**
 ![Image](openingTerminal.png)
 
-VScode looks like:
+**VScode looks like:**
 ![Image](openingVScode.png)
 
 Once you get either application open, enter:
