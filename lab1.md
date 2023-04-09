@@ -42,6 +42,7 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 In order to start remote access, we will need to open up either our **Command Prompt/Terminal** or **VScode**
 
 Command Prompt (Windows) looks like:
+
 ![Image](openingCommandPrompt.png)
 
 Terminal looks like:
@@ -61,4 +62,16 @@ It should look like this (on Command Prompt because I have logged in previously 
 This is what it looks like if you have logged in (Terminal on mac):
 ![Image](remoteLoginScreen.png)
 
-Once you are in you can run a few commands to test it out:
+Once you are in you can run a few commands to test it out. There are several commands, we will test out:
+- cd ~
+- cd
+- ls -lat
+- ls -a
+- ls **directory*** */home/linux/ieng6/cs15lsp23/cs15lsp23**abc** where **abc** is one of your other group members' username
+- cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+- cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+
+Here is a screenshot of those commands and their respective outputs:
+![Image](testingCommands.png)
+
+If you want to log out of the remote server in your terminal, you can use either **Ctrl-D** or **Exit** in the terminal to leave.
