@@ -1,8 +1,7 @@
 ## **Lab Report 1
-Hey everyone! I'm Derrick and today I'll be guiding you through **remote access and filesystem** in CSE 15L. To start, you will have to:
+Hey everyone! I'm Derrick and today I'll be guiding you through **remote access and filesystem** in CSE 15L. Before we begin remotely connecting, you will have to:
 1. Lookup your course-specific account, log into your CSE 15L account, and change the password
 2. Install VScode(Visual Studio Code) and git(if on Windows, allows you to use Mac/Linux commands on Windows*) *Windows commmands are different*
-3. Remotely Connecting
 
 # **Step 1**
 In order to lookup your course-specific account, you will have to go to this <a href="https://sdacs.ucsd.edu/~icc/index.php "> page </a> and enter the following:
@@ -24,15 +23,22 @@ Click on **Global Password Change Tool** and click **Proceed to the Password Cha
 **VScode** is an IDE (integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
 
 To install VScode, visit: https://code.visualstudio.com/
+You will be taken to a screen that looks like:
+![Image](installingVScode.png)
+
+Once you are there, select the proper installation for your device (Windows, Mac, Linux)
 
 To download git, visit: https://gitforwindows.org/
+You will be taken to a screen that looks like:
+![image](installingGit.png)
+
 Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994"> here </a> to set default terminal to **git bash** in VScode.
 
 *Credit to Professor Politz for link above.*
 
 **Now it's time to dive into remotely connecting.**
 
-# **Step 3**
+# **Remote Access and Filesystem**
 In order to start remote access, we will need to open up either our **Terminal** or **VScode**
 Once you get either application open, enter **ssh cs15lsp23zz@ieng6.ucsd.edu**, with the **zz** being your specific number.
 
