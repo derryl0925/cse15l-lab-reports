@@ -19,6 +19,7 @@ Now that you see this, click on the account for the corresponding course (in thi
 ![Image](courseSpecificAccountHomePage.png)
 
 Click on **Global Password Change Tool** and click **Proceed to the Password Change Tool** under the **Student, AX, or Course-Specific Student Accounts** section. Once you are there, follow the instructions and change your password.
+
 ---
 # **Step 2**
 **VScode** is an IDE (integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
@@ -40,7 +41,7 @@ Follow steps <a href="https://stackoverflow.com/questions/42606837/how-do-i-use-
 > *Credit to Professor Politz for link above.*
 
 **Now it's time to dive into remotely connecting.**
-
+---
 # **Remote Access and Filesystem**
 In order to start remote access, we will need to open up either our **Command Prompt/Terminal** or **VScode**
 
