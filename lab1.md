@@ -71,7 +71,7 @@ This is what it looks like if you have logged in (Terminal on mac):
 ![Image](remoteLoginScreen.png)
 
 Once you are in you can run a few commands to test it out. There are several commands, we will test out:
-- **`cd ~`** 
+- **`cd ~`** add what commands do...
 - **`cd`**
 - **`ls -lat`**
 - **`ls -a`**
@@ -81,6 +81,7 @@ Once you are in you can run a few commands to test it out. There are several com
 
 Here is a screenshot of those commands and their respective outputs:
 ![Image](testingCommands.png)
+explain what is happening ^
 
 If you want to log out of the remote server in your terminal, you can use either **Ctrl-D** or **Exit** in the terminal to leave.
 
