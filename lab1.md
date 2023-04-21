@@ -27,7 +27,7 @@ Click on **Global Password Change Tool** and click **Proceed to the Password Cha
 # **Step 2**
 **VScode** is an IDE (integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
 
-To install VScode, visit: https://code.visualstudio.com/
+To install VScode, click <a href="https://code.visualstudio.com/"> page </a>
 You will be taken to a screen that looks like:
 ![Image](installingVScode.png)
 
