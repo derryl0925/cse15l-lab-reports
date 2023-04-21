@@ -71,13 +71,13 @@ This is what it looks like if you have logged in (Terminal on mac):
 ![Image](remoteLoginScreen.png)
 
 Once you are in you can run a few commands to test it out. There are several commands, we will test out:
-- cd ~
-- cd
-- ls -lat
-- ls -a
-- ls **directory*** */home/linux/ieng6/cs15lsp23/cs15lsp23**abc** where **abc** is one of your other group members' username
-- cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-- cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+- **`cd ~`** 
+- **`cd`**
+- **`ls -lat`**
+- **`ls -a`**
+- **`ls **directory*** */home/linux/ieng6/cs15lsp23/cs15lsp23**abc** where **abc** is one of your other group members' username`**
+- **`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`**
+- **`cat /home/linux/ieng6/cs15lsp23/public/hello.txt`**
 
 Here is a screenshot of those commands and their respective outputs:
 ![Image](testingCommands.png)
