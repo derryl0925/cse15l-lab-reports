@@ -60,7 +60,7 @@ In order to start remote access, we will need to open up either our **Command Pr
 ![Image](openingVScode.png)
 
 Once you get either application open, enter:
-`**ssh cs15lsp23zz@ieng6.ucsd.edu**`, with the `**zz**` being your specific number.
+**`ssh cs15lsp23zz@ieng6.ucsd.edu`**, with the **`zz`** being your specific number.
 
 You will be asked to enter a password, that password will be whatever you set it to in the earlier steps. **Note that when you type in your password it will appear as if you haven't typed in anything, but the terminal hides your password on purpose**.
 
