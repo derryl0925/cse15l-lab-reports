@@ -53,7 +53,7 @@ In order to start remote access, we will need to open up either our **Command Pr
 
 ![Image](openingCommandPrompt.png)
 
-**Terminal looks like:**
+**Terminal (Mac) looks like:**
 ![Image](openingTerminal.png)
 
 **VScode looks like:**
