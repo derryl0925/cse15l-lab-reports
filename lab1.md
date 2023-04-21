@@ -27,13 +27,13 @@ Click on **Global Password Change Tool** and click **Proceed to the Password Cha
 # **Step 2**
 **VScode** is an IDE (integraded development environment) that we can write and run code on. For the purpose of this tutorial, we will only be using the Terminal found within VScode. **Please note that using the Terminal on your computer works as well**.
 
-To install VScode, click <a href="https://code.visualstudio.com/"> page </a>
+To install VScode, click <a href="https://code.visualstudio.com/"> here </a>.
 You will be taken to a screen that looks like:
 ![Image](installingVScode.png)
 
 Once you are there, select the proper installation for your device (Windows, Mac, Linux)
 
-To download git, visit: https://gitforwindows.org/
+To download git, click <a href="https://gitforwindows.org/"> here </a>.
 You will be taken to a screen that looks like:
 ![image](installingGit.png)
 
@@ -60,7 +60,7 @@ In order to start remote access, we will need to open up either our **Command Pr
 ![Image](openingVScode.png)
 
 Once you get either application open, enter:
-**ssh cs15lsp23zz@ieng6.ucsd.edu**, with the **zz** being your specific number.
+`**ssh cs15lsp23zz@ieng6.ucsd.edu**`, with the `**zz**` being your specific number.
 
 You will be asked to enter a password, that password will be whatever you set it to in the earlier steps. **Note that when you type in your password it will appear as if you haven't typed in anything, but the terminal hides your password on purpose**.
 
