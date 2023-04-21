@@ -71,12 +71,12 @@ This is what it looks like if you have logged in (Terminal on mac):
 ![Image](remoteLoginScreen.png)
 
 Once you are in you can run a few commands to test it out. There are several commands, we will test out:
-- **`cd`** **Command for changing directory**
-- **`ls -lat`** **Shows a list of files in the directory + time they were added**
-- **`ls -a`** **Shows more detailed descriptions of what files are in the directory**
-- **`ls **directory*** */home/linux/ieng6/cs15lsp23/cs15lsp23**abc** where **abc** is one of your other group members' username`** **Here we try to access someone else's account files**
-- **`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`** **Copies this file**
-- **`cat /home/linux/ieng6/cs15lsp23/public/hello.txt`** **Prints the file content**
+- **`cd`**: **Command for changing directory**
+- **`ls -lat`**: **Shows a list of files in the directory + time they were added**
+- **`ls -a`**: **Shows more detailed descriptions of what files are in the directory**
+- **`ls **directory*** */home/linux/ieng6/cs15lsp23/cs15lsp23**abc** where **abc** is one of your other group members' username`**: **Here we try to access someone else's account files**
+- **`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`**: **Copies this file**
+- **`cat /home/linux/ieng6/cs15lsp23/public/hello.txt`**: **Prints the file content**
 
 Here is a screenshot of those commands and their respective outputs:
 ![Image](testingCommands.png)
