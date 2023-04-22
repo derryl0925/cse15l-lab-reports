@@ -10,3 +10,9 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **remote access 
 # **Step 1**
 
 ![Image](stringServer.png)
+
+![Image](stringServerPic1.png)
+![Image](stringServerPic2.png)
+![Image](stringServerPic3.png)
+![Image](stringServerPic4.png)
+
