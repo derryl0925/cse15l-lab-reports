@@ -41,7 +41,10 @@ Now that we know how StringServer works, lets move onto bugs from lab 3!
 # **Step 2**
 There were a variety of bugs from lab 3, today we will be looking at bugs within ArrayExamples.java!
 
-To start, we have three methods, **reverseInPlace, reversed, and averageWithoutLowest**. Tests that should work but fail because there are bugs in the three methods above:
+**The buggy code for ArrayExamples.java is here:
+![Image](arrayExamplesBuggy.png)
+
+To start, we have three methods, **reverseInPlace, reversed, and averageWithoutLowest**. I've written test methods in an ArrayTest class and provided tests below that should cause fails because there are bugs in the three methods above:
 
 **Test that makes reverseInPlace fail:** 
 
