@@ -43,7 +43,7 @@ There were a variety of bugs from lab 3, today we will be looking at bugs within
 
 To start, we have three methods, **reverseInPlace, reversed, and averageWithoutLowest**. Tests that should work but fail because there are bugs in the three methods above:
 
-**Test for reverseInPlace:** 
+**Test that makes reverseInPlace fail:** 
 
 ```
 @Test
@@ -56,5 +56,35 @@ To start, we have three methods, **reverseInPlace, reversed, and averageWithoutL
     
     assertArrayEquals(new int[]{4, 3, 2}, input1);
     
+  }
+```
+
+**Test that makes reversed fail:** 
+
+```
+@Test
+
+  public void reversed() {
+  
+    int[] input1 = {1, 2, 3, 4, 5};
+    
+    assertArrayEquals(new int[] {5, 4, 3, 2, 1}, ArrayExamples.reversed(input1));
+    
+  }
+```
+
+**Test that makes averageWithoutLowest fail:** 
+
+```
+@Test
+
+  public void averageWithoutLowest() {
+
+    // what if multiple instances of lowest? only drop one instance of the lowest
+    
+    double[] input1 = {1.0, 1.0, 2.0, 3.0, 6.0};
+    
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1),0);
+
   }
 ```
