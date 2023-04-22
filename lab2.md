@@ -8,3 +8,5 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **remote access 
 2. Install VScode(Visual Studio Code) and git(if on Windows)
 ---
 # **Step 1**
+
+![Image](stringServer.png)
