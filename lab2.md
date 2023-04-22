@@ -12,7 +12,7 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **servers and bu
 **I've written a web server and called it StringServer. What it does when I run it with a port number, it has the ability to add strings to the line below the previous line. I will explain further in a bit! Here is the code that I wrote which allows said functions to be done:**
 ![Image](stringServer.png)
 
-In the code above, I've set it so that adding a path like **/add-message?s="<"string">"** after our domain outputs the string we typed onto the web page.
+In the code above, I've set it so that adding a path like **`/add-message?s=<string>`** after our domain outputs the string we typed onto the web page.
 
 ![Image](stringServerPic1.png)
 
@@ -34,6 +34,10 @@ In the screenshot of the StringServer class I posted above, the handleRequest me
 The relevant arguments to the handleRequest method are the URI object representing the request URL. The relevent field of the Handler class is the StringBuilder object messages, which represents the accumulated messages received from previous requests. Its value changes when a new message is typed in with the `/add-message?s=<string>` block.
 
 The values of the messages field of the Handler class change from specific re
+
+
+
+
 
 
 Now that we know how StringServer works, lets move onto bugs from lab 3!
