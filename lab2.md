@@ -45,12 +45,16 @@ To start, we have three methods, **reverseInPlace, reversed, and averageWithoutL
 
 **Test for reverseInPlace:** 
 
-`@Test
-  public void reverseInPlace() {
+`
+@Test
+
+public void reverseInPlace() {
   
-    int[] input1 = {2, 3, 4};
+  int[] input1 = {2, 3, 4};
     
-    ArrayExamples.reverseInPlace(input1);
-    
-    assertArrayEquals(new int[]{4, 3, 2}, input1);
-  }`
+  ArrayExamples.reverseInPlace(input1);
+  
+  assertArrayEquals(new int[]{4, 3, 2}, input1);
+  
+}
+`
