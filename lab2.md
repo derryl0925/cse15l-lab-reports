@@ -12,9 +12,19 @@ I've written a web server and called it StringServer. What it does when I run it
 ![Image](stringServer.png)
 
 In the code above, I've set it so that adding a path like **/add-message?s=`<string>`** after our domain outputs the string we typed onto the web page.
+
 ![Image](stringServerPic1.png)
+
+Notice that in the URL, there were a bunch of %20s in between my text. You can include that as a space in the text, but if you type the string out with a space, %20 will autofull in those positions when you press enter.\
+
+I've added a different path and hit enter to show how it concatenates strings, the code I wrote added the first line + this second line
+
 ![Image](stringServerPic2.png)
+
+This is what the path and output look like without any spaces:
 ![Image](stringServerPic3.png)
+
+This is just an extra image explaining the %20 I've explained above.
 ![Image](stringServerPic4.png)
 
 ---
