@@ -5,7 +5,8 @@ Published April _th, 2023, by Derrick Lin
 ---
 Hey everyone! I'm Derrick and today I'll be guiding you through **servers and bugs** in CSE 15L. I will be going over the following:
 1. What a server that concatenates strings looks like on a server
-2. Bugs in code and how we test and fix them
+2. Bugs in the code from lab 3 and how we test and fix them
+3. Something I learned from lab week 2 or 3 that I didn't know before
 ---
 # **Step 1**
 I've written a web server and called it StringServer. What it does when I run it with a port number, it has the ability to add strings to the line below the previous line. I will explain further in a bit! Here is the code that I wrote which allows said functions to be done:
@@ -27,5 +28,8 @@ This is what the path and output look like without any spaces:
 This is just an extra image explaining the %20 I've explained above.
 ![Image](stringServerPic4.png)
 
+Now that we know how StringServer works, lets move onto bugs from lab 3!
+
 ---
 # **Step 2**
+There were a variety of bugs from lab 3, today we will be looking at:
