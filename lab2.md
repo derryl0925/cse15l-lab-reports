@@ -33,12 +33,7 @@ In the screenshot of the StringServer class I posted above, the handleRequest me
 
 The relevant arguments to the handleRequest method are the URI object representing the request URL. The relevent field of the Handler class is the StringBuilder object messages, which represents the accumulated messages received from previous requests. Its value changes when a new message is typed in with the `/add-message?s=<string>` block.
 
-The values of the messages field of the Handler class change from specific re
-
-
-
-
-
+The values of the messages field of the Handler class change from specific request `/add-message?s=<string>`. The messages field is a StringBuilder object that represents the acucmulated messages received from previous requests. Inside the if block for the path to add a new message, the code appends the new message to the messages field. Therefore, the messages field is modified to include the new message from the current request. If the "s" query parameter is not present in the URL, the code does not modify the messages field. If there is no "s" in the URL, the code will return an error message. If our path **/add-message** is not in the URL, the if block in our StringServer class will not be executed and the code will check other possible paths in the handleRequest method.
 
 Now that we know how StringServer works, lets move onto bugs from lab 3!
 
