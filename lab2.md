@@ -44,7 +44,7 @@ There were a variety of bugs from lab 3, today we will be looking at bugs within
 **The buggy code for ArrayExamples.java is here:
 ![Image](arrayExamplesBuggy.png)
 
-To start, we have three methods, **reverseInPlace, reversed, and averageWithoutLowest**. I've written test methods in an ArrayTest class and provided tests below that should cause fails because there are bugs in the three methods above:
+To start, we have three methods, **reverseInPlace, reversed, and averageWithoutLowest**. I've written test methods in an ArrayTest class and provided tests below that should induce failures because there are bugs in the three methods above:
 
 **Test that makes reverseInPlace fail:** 
 
@@ -88,6 +88,52 @@ To start, we have three methods, **reverseInPlace, reversed, and averageWithoutL
     double[] input1 = {1.0, 1.0, 2.0, 3.0, 6.0};
     
     assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1),0);
+
+  }
+```
+
+We can write more simple test cases that will actually not induce a failure, those test cases would be:
+
+**Test that makes reverseInPlace pass:** 
+
+```
+@Test 
+
+	public void testReverseInPlace() {
+  
+    int[] input1 = { 3 };
+    
+    ArrayExamples.reverseInPlace(input1);
+    
+    assertArrayEquals(new int[]{ 3 }, input1);
+    
+	}
+```
+
+**Test that makes reversed pass:** 
+
+```
+@Test
+
+  public void testReversed() {
+  
+    int[] input1 = { };
+    
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    
+  }
+```
+
+**Test that makes averageWithoutLowest pass:** 
+
+```
+@Test
+
+  public void averageWithoutLowest() {
+    
+    double[] input1 = {0.0, 1.0};
+    
+    assertEquals(1.0, ArrayExamples.averageWithoutLowest(input1),0);
 
   }
 ```
