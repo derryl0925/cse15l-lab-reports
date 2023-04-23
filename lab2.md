@@ -1,6 +1,6 @@
 ## **Lab Report 2**
 ---
-Published April _th, 2023, by Derrick Lin
+Published April 23rd, 2023, by Derrick Lin
 
 ---
 Hey everyone! I'm Derrick and today I'll be guiding you through **servers and bugs** in CSE 15L. I will be going over the following:
@@ -168,6 +168,7 @@ public class ArrayExamples {
     
   }
 
+
   // Returns a *new* array with all the elements of the input array in reversed
   
   // order
@@ -187,7 +188,6 @@ public class ArrayExamples {
   }
   
   
-
   // Averages the numbers in the array (takes the mean), but leaves out the
   
   // lowest number when calculating. Returns 0 if there are no elements or just
@@ -218,9 +218,6 @@ public class ArrayExamples {
     
   }
   
-
-
-
 }
 ```
 
@@ -228,7 +225,6 @@ Here is the corrected code I've wrote to make all the cases test cases not induc
 
 ```
 public class ArrayExamples {
-
 
   // Changes the input array to be in reversed order
   
@@ -241,7 +237,8 @@ public class ArrayExamples {
    * reversed temp array 
    
    */
-   
+
+
   static void reverseInPlace(int[] arr) {
   
     for(int i = 0; i < arr.length / 2; i += 1) {
@@ -256,8 +253,7 @@ public class ArrayExamples {
     
   }
   
-
-
+  
   // Returns a *new* array with all the elements of the input array in reversed
   
   // order
@@ -324,8 +320,6 @@ public class ArrayExamples {
     
   }
   
-
-
 
 }
 ```
