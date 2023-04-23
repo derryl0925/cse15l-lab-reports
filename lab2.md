@@ -8,7 +8,7 @@ Hey everyone! I'm Derrick and today I'll be guiding you through **servers and bu
 2. Bugs in the code from lab 3 and how we test and fix them
 3. Something I learned from lab week 2 or 3 that I didn't know before
 ---
-# **Step 1**
+# **Part 1**
 **I've written a web server and called it StringServer. What it does when I run it with a port number, it has the ability to add strings to the line below the previous line. I will explain further in a bit! Here is the code that I wrote which allows said functions to be done:**
 ![Image](stringServer.png)
 
@@ -38,7 +38,7 @@ The values of the messages field of the Handler class change from specific reque
 Now that we know how StringServer works, lets move onto bugs from lab 3!
 
 ---
-# **Step 2**
+# **Part 2**
 There were a variety of bugs from lab 3, today we will be looking at bugs within ArrayExamples.java!
 
 **The buggy code for ArrayExamples.java is here:
@@ -323,4 +323,34 @@ public class ArrayExamples {
 
 }
 ```
+
+If you don't want to go through and examine the code to see what I've changed, I made comments before each method to explain what I changed in each part!!!
+
+In the method **reverseInPlace**, the issue was that the code assigned the i-th element of the array to be (length - i - 1)-th element. It did not swap the elements though, so every element in the array was overwritten with the corresponding element from the end of the array, and the original order of the array was lost.
+
+These fixes addressed the issues because it correctly swaps the first and last elements, second and second to last elements, and so on elements of the array. The algorithm avoids swapping elements twice and ensures that each element is swapped with its corresponding element exactly once.
+
+
+In the method **reversed**, it assigned newArray[arr.length - i - 1] to arr[i], which is the opposite of what was intended. This overwrote the original input array with the reversed values, rather than creating a new reversed array. Another issue existed in this method, that being the original code returned the input array, arr rather than the newly created reversed array, newArray. This means that the caller of the method would receive the original input array with the values overwritten rather than the desired reversed array.
+
+These fixes addressed the isses because it corectly creates a new array, newArray with the same length as the input array, arr and then populates it with the elements of arr in reverse order.
+
+
+In the method **averageWithoutLowest**, the issue was that the lowest value in the input array is identified using the for loop that iterates through each element of the array. But the value of lowest is never removed or excluded from the calculation of the sum of the remaining elements, which is performed in the second for loop. This means that the calculated sum includes the lowest value, which results in an incorrect average.
+
+These fixes addressed the issues because it correctly calculates the average of the input array after excluding the lowest value, whereas the original code did not correctly exclude the lowest value. The fixed code does it correctly by removing it from the sum before dividing by the length of the input array minus one. The for loop that calculates the sum adds all values in the input array but the lowest value, then after the loop is done running, the value of lowest is subtracted from the sum, then the result of this is divided by the length of the input array minus one to obtain the correct average.
+
+**WOW that was a lot of typing**. Now that we have gone into detail about the bug, symptom, and the fix, we can wrap it up. If you are still reading this, be glad, you made it to the end and most definitely learned a lot from this (I hope?). 
+
+---
+# **Part 3**
+Lab 2 and 3 were very fun to do, especially lab 2 in my opinion. We learned about starting servers, like what??? That is so cool, I even wrote my own version of a server that concatenates strings together. I can't wait to learn more cool stuff in the computer science field!!! Lab 3 was a lot of testing and fixing. I'm currently taking CSE 12 as well, and our PAs look very similar in the sense that we have to write test cases to check the validity of our classes and methods. I'd say that I knew the majority of lab 3 conceptually, but lab 2 was brand new content for me.
+
+That about wraps up what I've got to say! Thank you for reading my article!
+
+If you have any corrections or issues with the article, please contact me at del021@ucsd.edu.
+
+
+
+
 
