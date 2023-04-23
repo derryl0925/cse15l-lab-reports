@@ -92,6 +92,12 @@ To start, we have three methods, **reverseInPlace, reversed, and averageWithoutL
   }
 ```
 
+When these tests are ran in the ArrayTests class, we get this from output from our terminal:
+
+![Image](failureAndSymptoms.png)
+
+Additionally, the symptoms are shown too. We are told which test failed and why **(expected does not match actual output)**.
+
 We can write more simple test cases that will actually not induce a failure, those test cases would be:
 
 **Test that makes reverseInPlace pass:** 
@@ -137,3 +143,14 @@ We can write more simple test cases that will actually not induce a failure, tho
 
   }
 ```
+
+Below is a screenshot from the terminal that shows that all tests have passed **(doesn't induce a failure)**.
+
+![Image](doesNotInduceFailure/png)
+
+Now that we have tested cases that pass and fail, we can correct the code to make the cases that fail pass.
+
+For a comparison, here is the code once again before fixing the bugs:
+
+Here is the corrected code I've wrote to make all the cases test cases not induce a failure:
+
