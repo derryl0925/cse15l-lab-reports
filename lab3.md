@@ -6,8 +6,7 @@ Published May 9th, 2023, by Derrick Lin
 Hey everyone! I'm Derrick and today I'll be guiding you through commands in CSE 15L. There are a few interesting commands, `less`, `find`, and `grep`. Today we will take a deeper look and dive into the command **`grep`**!
 
 We will be going over:
-1. Four interesting command-line options or alternate ways to use **`grep`**
-2. Two examples for each option using it on files and directories from `./technical`, which was a directory given in CSE 15L 
+Four interesting command-line options or alternate ways to use **`grep`** as well as a few examples for each new option found on files and directories from `./technical`, which was a directory given in the CSE 15L stringsearch-data folder.
 
 ---
 # **Alternate ways to use `grep`**
