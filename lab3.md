@@ -27,30 +27,34 @@ This command searches for the string "alcohol" in the file. Now you may think th
 ![Image](grep-iSpecificFile.png)
 
 In order to use `grep -i` on a directory, it must be changed to "**ir**":
-- grep -ir "alcohol" .
+- `grep -ir "alcohol" .`
+Instead of the ".", a path could have been typed, but I didn't do that because I already navigated inside that path to show that we can just look at all instances of "alcohol" for all files in the given path.
 ![Image](grep-irDirectory.png)
 
 **Examples of using `grep -E '^s.*s$' ./file.txt`:**
 - `grep -E '^s.*s$' ./DraftRecom-PDF.txt`
+This command has the ability to apply unique filter. That filter is starting and ending with a specific letter or any character of your choice. I kept it simple and searched for lines that start with "s" and end with "s"
 ![Image](grep-EFile.png)
 
-other example of grep -E with another .txt in .technical:
+We can test this by searching another file in the ./technical directory:
 - `grep -E '^s.*s$' ./Session2-PDF.txt`
 ![Image](grep-EanotherFile.png)
 
 **Examples of using `grep -r 'string' /path/to/directory`:**
 - `grep -r 'instruments' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
+This command searches for a string recursively and prints all lines containing the given string. I've chosen the string "instruments" in this example to display the use of the `grep -r` command.
 ![Image](grep-rInstruments.png)
 
-second grep -r:
+Testing `grep -r` on a different string within ./technical:
 - `grep -r 'alcohol' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
 ![Image](grep-rAlcohol.png)
 
 **Examples of using `grep -v "string" ./file.txt`:**
 - `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/DraftRecom-PDF.txt`
+This command is quite unique. It actually returns every line that **DOES NOT** contain the string you gave it in the command. I've decided to exclude the string "alcohol" here.
 ![Image](grep-vSpecificFile.png)
 
-second grep -v (shows lines excluding "alcohol" in every .txt file within that directory:
+I've now decided to show every line that excludes "alcohol" in each file within a specific path in ./technical:
 - `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/*`
 ![Image](grep-vStar.png)
 
