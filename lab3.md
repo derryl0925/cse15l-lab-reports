@@ -11,10 +11,11 @@ We will be going over:
 
 ---
 # **Alternate ways to use `grep`**
-There are a variety of ways one can use commands, I've looked online and found a few ways: <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> various grep commands </a>.
+There are a variety of ways one can use commands, I've looked online and found a few ways.
 
 Here are four different ways to use `grep`:
-- `grep -i 'string' fileName.txt` (this allows us to search for a string in a given file) 
+- <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> `grep -i 'string' fileName.txt` </a>: (this allows us to search for a string in a given file)
+- <a href="https://linuxize.com/post/how-to-use-grep-command-to-search-files-in-linux/"> `grep -E '^s.*s$' ./file.txt` </a>: (allows us to search for a string that starts with something and ends with something specific)
 - 
 
 ---
