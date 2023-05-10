@@ -15,8 +15,8 @@ There are a variety of ways one can use commands, I've looked online and found a
 Here are four different ways to use `grep`:
 - <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> `grep -i 'string' fileName.txt` </a>: (this allows us to search for a string in a given file)
 - <a href="https://linuxize.com/post/how-to-use-grep-command-to-search-files-in-linux/"> `grep -E '^s.*s$' ./file.txt` </a>: (allows us to search for a line that starts with something and ends with something specific)
-- <a href="https://www.geeksforgeeks.org/grep-command-in-unixlinux/#"> `grep -r 'pattern' /path/to/directory` </a>: (searches for a string recursively in the directory and prints all lines that contain the string)
-- 
+- <a href="https://www.geeksforgeeks.org/grep-command-in-unixlinux/#"> `grep -r 'string' /path/to/directory` </a>: (searches for a string recursively in the directory and prints all lines that contain the string)
+- <a href="https://man7.org/linux/man-pages/man1/grep.1.html"> `grep -v "string" ./file.txt` </a>: (searches a given file or directory for lines that exclude the string)
 
 ---
 # **Examples of new ways to use `grep`**
@@ -39,12 +39,20 @@ other example of grep -E with a .txt in .technical:
 - `grep -E '^s.*s$' ./Session2-PDF.txt`
 (IMAGE HERE)
 
-**Examples of using `grep -r 'pattern' /path/to/directory`:**
+**Examples of using `grep -r 'string' /path/to/directory`:**
 - `grep -r 'instruments' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
 (IMAGE HERE)
 
 second grep -r:
 - `grep -r 'alcohol' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
+(IMAGE HERE)
+
+**Examples of using `grep -v "string" ./file.txt`:**
+- `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/DraftRecom-PDF.txt`
+(IMAGE HERE)
+
+second grep -v (shows lines excluding "alcohol" in every .txt file within that directory:
+- `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/*`
 (IMAGE HERE)
 
 
