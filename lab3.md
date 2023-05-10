@@ -6,7 +6,7 @@ Published May 9th, 2023, by Derrick Lin
 Hey everyone! I'm Derrick and today I'll be guiding you through commands in CSE 15L. There are a few interesting commands, `less`, `find`, and `grep`. Today we will take a deeper look and dive into the command **`grep`**!
 
 We will be going over:
-Four interesting command-line options or alternate ways to use **`grep`** as well as a few examples for each new option found on files and directories from `./technical`, which was a directory given in the CSE 15L stringsearch-data folder.
+Four interesting command-line options or alternate ways to use **`grep`** as well as a few examples for each new option found on files and directories from `./technical`, which was a directory given in the CSE 15L stringsearch-data folder. The command `grep` by itself is used to search for a string in a given file or directory, but we will be exploring the various ways that can modify or filter the search.
 
 ---
 # **Alternate ways to use `grep`**
@@ -21,10 +21,9 @@ Here are four different ways to use `grep`:
 ---
 # **Examples of new ways to use `grep`**
 
-Sentence detail.
-
 **Examples of using `grep -i "string" fileName.txt`:**
 - `grep -i "alcohol" DraftRecom-PDF.txt`
+This command searches for the string "alcohol" in the file. Now you may think that this is the same as `grep`, but the "-i" allows us to not care about case sensitivity. This means our command will search for the string alcohol, Alcohol, alCohol, etc. 
 ![Image](grep-iSpecificFile.png)
 
 In order to use `grep -i` on a directory, it must be changed to "**ir**":
