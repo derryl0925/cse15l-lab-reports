@@ -11,7 +11,7 @@ We will be going over:
 
 ---
 # **Alternate ways to use `grep`**
-In order to lookup your course-specific account, you will have to go to this <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> page </a> and enter the following:
+There are a variety of ways one can use commands, I've looked online and found a few ways: <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> various grep commands </a>.
 
 ---
 
