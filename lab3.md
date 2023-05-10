@@ -14,7 +14,7 @@ We will be going over:
 There are a variety of ways one can use commands, I've looked online and found a few ways: <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> various grep commands </a>.
 
 Here are four different ways to use `grep`:
-- `grep -i "string" fileName.txt` (this allows us to search for a string in a given file 
+- `grep -i 'string' fileName.txt` (this allows us to search for a string in a given file) 
 - 
 
 ---
