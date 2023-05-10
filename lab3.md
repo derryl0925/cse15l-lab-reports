@@ -25,35 +25,35 @@ Sentence detail.
 
 **Examples of using `grep -i "string" fileName.txt`:**
 - `grep -i "alcohol" DraftRecom-PDF.txt`
-(IMAGE HERE)
+![Image](grep-iSpecificFile.png)
 
 In order to use `grep -i` on a directory, it must be changed to "**ir**":
 - grep -ir "alcohol" .
-(IMAGE HERE)
+![Image](grep-irDirectory.png)
 
 **Examples of using `grep -E '^s.*s$' ./file.txt`:**
 - `grep -E '^s.*s$' ./DraftRecom-PDF.txt`
-(IMAGE HERE)
+![Image](grep-EFile.png)
 
-other example of grep -E with a .txt in .technical:
+other example of grep -E with another .txt in .technical:
 - `grep -E '^s.*s$' ./Session2-PDF.txt`
-(IMAGE HERE)
+![Image](grep-EanotherFile.png)
 
 **Examples of using `grep -r 'string' /path/to/directory`:**
 - `grep -r 'instruments' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
-(IMAGE HERE)
+![Image](grep-rInstruments.png)
 
 second grep -r:
 - `grep -r 'alcohol' /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems`
-(IMAGE HERE)
+![Image](grep-rAlcohol.png)
 
 **Examples of using `grep -v "string" ./file.txt`:**
 - `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/DraftRecom-PDF.txt`
-(IMAGE HERE)
+![Image](grep-vSpecificFile.png)
 
 second grep -v (shows lines excluding "alcohol" in every .txt file within that directory:
 - `grep -v "alcohol" /home/linux/ieng6/cs15lsp23/cs15lsp23gh/stringsearch/stringsearch-data/technical/government/Alcohol_Problems/*`
-(IMAGE HERE)
+![Image](grep-vStar.png)
 
 
 
