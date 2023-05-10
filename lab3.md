@@ -10,8 +10,8 @@ We will be going over:
 2. Two examples for each option using it on files and directories from `./technical`, which was a directory given in CSE 15L 
 
 ---
-# **Step 1**
-In order to lookup your course-specific account, you will have to go to this <a href="https://sdacs.ucsd.edu/~icc/index.php "> page </a> and enter the following:
+# **Alternate ways to use `grep`**
+In order to lookup your course-specific account, you will have to go to this <a href="https://www.gnu.org/software/grep/manual/html_node/Matching-Control.html"> page </a> and enter the following:
 
 ---
 
