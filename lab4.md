@@ -34,7 +34,9 @@ Once you log in, you should be prompted a screen showing that you have logged in
 
 ---
 # **Step 5: Cloning a fork of a repository from your personal Github account**
-Throughout the entirety of this course, we have forked many repositories from TAs, staff, and from Prof. Politz. Now it's our turn! We will be forking the repository to our own Github accounts then cloning the repository from our personal account.
+Throughout the entirety of this course, we have forked many repositories from TAs, staff, and from Prof. Politz. Now it's our turn! We will be forking the repository to our own Github accounts then cloning the repository from our personal account. There is a slight change though... 
+
+In order to properly clone our repository and allow commits and pushes, we must use `git clone git@github.com:username/reponame.git`. The instructions to properly set up SSH Keys for Github can be found <a href="https://ucsd-cse15l-s23.github.io/week/week7/> here </a>.
 
 In order to do this, we will do the following:
 1. Visit <a href="https://github.com/ucsd-cse15l-s23/lab7"> this page </a> to find the repository we want to fork.
@@ -69,7 +71,7 @@ In order to edit the file to fix the failing test, we will:
 2. Navigate to the last while loop using hjkl to go left, down, up, and right
   ![Image](navigatingInsideVimFile.png)
 3. Pressing "i" to enter Insert Mode then make the change required (index1 --> index2)
-4. We then press :wq to save and quit then `cat ListExamples.java` to see if our changes saved successfully.
+4. We then press <esc> to return to normal mode, **:wq** to save and quit, then `cat ListExamples.java` to see if our changes saved successfully.
 ![Image](catFile.png)
 
 ---
@@ -83,10 +85,20 @@ bash test.sh <enter>
   
 ---
 # **Step 9, Commit and Push changes to Github**
-We 
+In order to commit and push our changes to our Github, we will type first `git commit filename`. this brings us to a screen where we can use vim commands ("i" for insert mode) to type a commit message)
 
-![Image](blank.png)
+![Image](gitCommitListExamples.png)
+  
+From there, we enter `git push origin main` to finish up the steps to commit and push our changed file.
+
+You can check your Github repository for lab7 and see that the changes were successfully made!
+![Image](successfullyMade.png)
+![Image](confirmCodeRight.png)
 
 **The exact keystrokes to complete this step:**
-bash
+`git commit ListExamples.java` <enter> :wq `git push origin main` <enter>
+  
+---
+  
+This lab is really important as we learned how to use Vim and practiced committing and pushing to our Github repositories through the terminal. I hope you enjoyed reading through my tutorial! Please contact me at del021@ucsd.edu if you have any questions or concerns.
   
