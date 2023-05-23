@@ -6,15 +6,21 @@ Published May 22th, 2023, by Derrick Lin
 Hey everyone! I'm Derrick and today I'll be through a few commands! A few of which will be done in **Vim**. 
 
 We will be going over steps 4-9 in lab 7:
+
 4. Log into ieng6
+
 5. Clone your fork of the repository from your Github account
+
 6. Run the tests, demonstrating that they fail
+
 7. Edit the code file to fix the failing test
+
 8. Run the tests, demonstrating that they now succeed
+
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ---
-# **Step 4, Logging into ieng6**
+# **Step 4: Logging into ieng6**
 So by now, if you have been paying attention during lab, you should know how to do this, but to those who don't:
 
 1. Open your terminal on your desktop or in VsCode
@@ -27,7 +33,7 @@ Once you log in, you should be prompted a screen showing that you have logged in
 
 
 ---
-# **Step 5, Cloning a fork of a repository from your personal Github account**
+# **Step 5: Cloning a fork of a repository from your personal Github account**
 Throughout the entirety of this course, we have forked many repositories from TAs, staff, and from Prof. Politz. Now it's our turn! We will be forking the repository to our own Github accounts then cloning the repository from our personal account.
 
 In order to do this, we will do the following:
@@ -42,7 +48,7 @@ In order to do this, we will do the following:
 git clone https://github.com/username/lab7 <enter> 
 
 ---
-# **Step 6, Run the tests, demonstrating that they fail**
+# **Step 6: Run the tests, demonstrating that they fail**
 There won't be much to do here but to run our shellscript `bash test.sh` and watch as it tells us there was a failed test.
 
 ![Image](failedTests.png)
@@ -52,7 +58,7 @@ bash test.sh <enter>
   
   
 ---
-# **Step 7, Edit the code file to fix the failing test**
+# **Step 7: Edit the code file to fix the failing test**
 This is where the fun begings! We will utilize **Vim**, a text editor.
 
 If you would like to learn about Vim, typing the command `vimtutor` pulls up a tutorial you can follow to learn Vim.
