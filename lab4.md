@@ -14,8 +14,7 @@ We will be going over steps 4-9 in lab 7:
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ---
-# Logging into ieng6**
-
+# **Step 4, Logging into ieng6**
 So by now, if you have been paying attention during lab, you should know how to do this, but to those who don't:
 
 1. Open your terminal on your desktop or in VsCode
@@ -24,22 +23,64 @@ So by now, if you have been paying attention during lab, you should know how to 
 
 Once you log in, you should be prompted a screen showing that you have logged in, now we can move onto the next step!
 
-**IMAGE STUFF**
+![Image](remoteLoginScreenagain.png)
+
 
 ---
-# Cloning a fork of a repository from your personal Github account**
-
+# **Step 5, Cloning a fork of a repository from your personal Github account**
 Throughout the entirety of this course, we have forked many repositories from TAs, staff, and from Prof. Politz. Now it's our turn! We will be forking the repository to our own Github accounts then cloning the repository from our personal account.
 
 In order to do this, we will do the following:
 1. Visit <a href="https://github.com/ucsd-cse15l-s23/lab7"> this page </a> to find the repository we want to fork.
 2. Then click fork at the top right and bring it into your own account.
 3. Now that we have the forked repository on our account, we can run `git clone https://github.com/username/lab7` to clone a copy onto our remote server account.
-4. **additional step if you already have a cloned repository and you want to remove it: type `rm -rf directoryName`
+4. **additional step if you already have a cloned repository and you want to remove it: type `rm -rf directoryName` *8
 
-**IMAGE STUFF**
+![Image](cloneLab7.png)
+
+**The exact keystrokes to complete this step (after forking repository):**
+git clone https://github.com/username/lab7 <enter> 
 
 ---
-# Run the tests, demonstrating that they fail**
+# **Step 6, Run the tests, demonstrating that they fail**
+There won't be much to do here but to run our shellscript `bash test.sh` and watch as it tells us there was a failed test.
 
-There won't be 
+![Image](failedTests.png)
+
+**The exact keystrokes to complete this step:**
+bash test.sh <enter>
+  
+  
+---
+# **Step 7, Edit the code file to fix the failing test**
+This is where the fun begings! We will utilize **Vim**, a text editor.
+
+If you would like to learn about Vim, typing the command `vimtutor` pulls up a tutorial you can follow to learn Vim.
+
+In order to edit the file to fix the failing test, we will:
+1. Open ListExamples.java using vim: `vim ListExamples.java`
+  ![Image](usingVim.png)
+2. Navigate to the last while loop using hjkl to go left, down, up, and right
+  ![Image](navigatingInsideVimFile.png)
+3. Pressing "i" to enter Insert Mode then make the change required (index1 --> index2)
+4. We then press :wq to save and quit then `cat ListExamples.java` to see if our changes saved successfully.
+![Image](catFile.png)
+
+---
+# **Step 8, Run the tests, demonstrating that they succeed**
+We will run our shellscript `bash test.sh` and watch as it tells us the tests succeeds.
+
+![Image](suceededTests.png)
+
+**The exact keystrokes to complete this step:**
+bash test.sh <enter>
+  
+---
+# **Step 9, Commit and Push changes to Github**
+We 
+
+![Image](blank.png)
+
+**The exact keystrokes to complete this step:**
+bash
+  
