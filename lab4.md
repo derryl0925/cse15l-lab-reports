@@ -31,7 +31,8 @@ Once you log in, you should be prompted a screen showing that you have logged in
 
 
 **The exact keystrokes to complete this step:**
-`shh cs15lsp23xx@ieng6.ucsd.edu` <enter> password <enter>
+`shh cs15lsp23xx@ieng6.ucsd.edu` &lt;enter&gt; password &lt;enter&gt;
+  
 ![Image](remoteLoginScreenagain.png)
 
 
@@ -39,7 +40,8 @@ Once you log in, you should be prompted a screen showing that you have logged in
 # **Step 5: Cloning a fork of a repository from your personal Github account**
 Throughout the entirety of this course, we have forked many repositories from TAs, staff, and from Prof. Politz. Now it's our turn! We will be forking the repository to our own Github accounts then cloning the repository from our personal account. There is a slight change though... 
 
-In order to properly clone our repository and allow commits and pushes, we must use `git clone git@github.com:username/reponame.git`. The instructions to properly set up SSH Keys for Github can be found <a href="https://ucsd-cse15l-s23.github.io/week/week7/> here </a>.
+In order to properly clone our repository and allow commits and pushes, we must use 
+`git clone git@github.com:username/reponame.git`. The instructions to properly set up SSH Keys for Github can be found <a href="https://ucsd-cse15l-s23.github.io/week/week7"> here </a>
 
 In order to do this, we will do the following:
 1. Visit <a href="https://github.com/ucsd-cse15l-s23/lab7"> this page </a> to find the repository we want to fork.
@@ -50,7 +52,7 @@ In order to do this, we will do the following:
 ![Image](cloneLab7.png)
 
 **The exact keystrokes to complete this step (after forking repository):**
-git clone git@github.com:username/lab7.git <enter> 
+`git clone git@github.com:username/lab7.git` &lt;enter&gt; 
 
 ---
 # **Step 6: Run the tests, demonstrating that they fail**
@@ -59,9 +61,8 @@ There won't be much to do here but to run our shellscript `bash test.sh` and wat
 ![Image](failedTests.png)
 
 **The exact keystrokes to complete this step:**
-bash test.sh <enter>
-  
-  
+`bash test.sh` &lt;enter&gt;
+
 ---
 # **Step 7: Edit the code file to fix the failing test**
 This is where the fun begings! We will utilize **Vim**, a text editor.
@@ -74,11 +75,12 @@ In order to edit the file to fix the failing test, we will:
 2. Navigate to the last while loop using hjkl to go left, down, up, and right
   ![Image](navigatingInsideVimFile.png)
 3. Pressing "i" to enter Insert Mode then make the change required (index1 --> index2)
-4. We then press <esc> to return to normal mode, **:wq** to save and quit, then `cat ListExamples.java` to see if our changes saved successfully.
+4. We then press &lt;esc&gt; to return to normal mode, **:wq** to save and quit, then `cat ListExamples.java` to see if our changes saved successfully.
 ![Image](catFile.png)
 
 **The exact keystrokes to complete this step:**
-vim ListExamples.java <enter> i <backspace> 2 <esc> :wq `cat ListExamples.java`
+vim ListExamples.java &lt;enter&gt; i &lt;backspace&gt; 2 &lt;esc&gt; :wq `cat ListExamples.java`
+
 ---
 # **Step 8, Run the tests, demonstrating that they succeed**
 We will run our shellscript `bash test.sh` and watch as it tells us the tests succeeds.
@@ -86,7 +88,7 @@ We will run our shellscript `bash test.sh` and watch as it tells us the tests su
 ![Image](suceededTests.png)
 
 **The exact keystrokes to complete this step:**
-bash test.sh <enter>
+bash test.sh &lt;enter&gt;
   
 ---
 # **Step 9, Commit and Push changes to Github**
@@ -101,7 +103,7 @@ You can check your Github repository for lab7 and see that the changes were succ
 ![Image](confirmCodeRight.png)
 
 **The exact keystrokes to complete this step:**
-`git commit ListExamples.java` <enter> :wq `git push origin main` <enter>
+`git commit ListExamples.java` &lt;enter&gt; :wq `git push origin main` &lt;enter&gt;
   
 ---
   
