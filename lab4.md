@@ -43,11 +43,12 @@ Throughout the entirety of this course, we have forked many repositories from TA
 In order to properly clone our repository and allow commits and pushes, we must use 
 `git clone git@github.com:username/reponame.git`. The instructions to properly set up SSH Keys for Github can be found <a href="https://ucsd-cse15l-s23.github.io/week/week7"> here </a>
 
+(If you already have a cloned repository and you want to remove it: type `rm -rf directoryName`)
+
 In order to do this, we will do the following:
 1. Visit <a href="https://github.com/ucsd-cse15l-s23/lab7"> this page </a> to find the repository we want to fork.
 2. Then click fork at the top right and bring it into your own account.
 3. Now that we have the forked repository on our account, we can run `git clone git@github.com:username/lab7.git` to clone a copy onto our remote server account.
-4. **additional step if you already have a cloned repository and you want to remove it: type `rm -rf directoryName` *8
 
 ![Image](cloneLab7.png)
 
