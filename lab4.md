@@ -77,6 +77,7 @@ In order to edit the file to fix the failing test, we will:
   ![Image](navigatingInsideVimFile.png)
 3. Pressing "i" to enter Insert Mode then make the change required (index1 --> index2)
 4. We then press &lt;esc&gt; to return to normal mode, **:wq** to save and quit, then `cat ListExamples.java` to see if our changes saved successfully.
+
 ![Image](catFile.png)
 
 **The exact keystrokes to complete this step:**
@@ -93,7 +94,7 @@ bash test.sh &lt;enter&gt;
   
 ---
 # **Step 9, Commit and Push changes to Github**
-In order to commit and push our changes to our Github, we will type first `git commit filename`. this brings us to a screen where we can use vim commands ("i" for insert mode) to type a commit message)
+In order to commit and push our changes to our Github, we will type first `git commit filename`. This brings us to a screen where we can use vim commands ("i" for insert mode) to type a commit message).
 
 ![Image](gitCommitListExamples.png)
   
