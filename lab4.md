@@ -29,6 +29,9 @@ So by now, if you have been paying attention during lab, you should know how to 
 
 Once you log in, you should be prompted a screen showing that you have logged in, now we can move onto the next step!
 
+
+**The exact keystrokes to complete this step:**
+`shh cs15lsp23xx@ieng6.ucsd.edu` <enter> password <enter>
 ![Image](remoteLoginScreenagain.png)
 
 
@@ -41,13 +44,13 @@ In order to properly clone our repository and allow commits and pushes, we must 
 In order to do this, we will do the following:
 1. Visit <a href="https://github.com/ucsd-cse15l-s23/lab7"> this page </a> to find the repository we want to fork.
 2. Then click fork at the top right and bring it into your own account.
-3. Now that we have the forked repository on our account, we can run `git clone https://github.com/username/lab7` to clone a copy onto our remote server account.
+3. Now that we have the forked repository on our account, we can run `git clone git@github.com:username/lab7.git` to clone a copy onto our remote server account.
 4. **additional step if you already have a cloned repository and you want to remove it: type `rm -rf directoryName` *8
 
 ![Image](cloneLab7.png)
 
 **The exact keystrokes to complete this step (after forking repository):**
-git clone https://github.com/username/lab7 <enter> 
+git clone git@github.com:username/lab7.git <enter> 
 
 ---
 # **Step 6: Run the tests, demonstrating that they fail**
@@ -74,6 +77,8 @@ In order to edit the file to fix the failing test, we will:
 4. We then press <esc> to return to normal mode, **:wq** to save and quit, then `cat ListExamples.java` to see if our changes saved successfully.
 ![Image](catFile.png)
 
+**The exact keystrokes to complete this step:**
+vim ListExamples.java <enter> i <backspace> 2 <esc> :wq `cat ListExamples.java`
 ---
 # **Step 8, Run the tests, demonstrating that they succeed**
 We will run our shellscript `bash test.sh` and watch as it tells us the tests succeeds.
