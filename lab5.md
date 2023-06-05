@@ -36,6 +36,7 @@ Hey Derrick, I see that your terminal outputs reasons as to why the compilation 
 `System.out.println("Hello World");` and it should work. 
 
 Why don't you do ahead and try it out, if more issues occur, feel free to create another post on EdStem or respond to this reply!
+
 \- TA 
 
 ---
