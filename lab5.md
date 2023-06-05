@@ -20,7 +20,7 @@ Windows 11 desktop, Visual Studio Code
 
 I am seeing an error, the program is supposed to print "Hello World" but my file won't compile successfully.
 
-![Image](HelloWorld Error.png)
+![Image](HelloWorldError.png)
 
 **`Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much contet as you can.`**
 
